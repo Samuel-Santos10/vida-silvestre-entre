@@ -1,0 +1,83 @@
+.headerPrincipal .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerPrincipal-nav {
+  display: flex;
+}
+
+.seccionTitulos .container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.seccionNosotros .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imagenesPrincipal {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagenesPrincipal-img {
+  width: 90.7%;
+  margin: 0.5%;
+}
+
+.sitioWeb-cajaPrincipal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+}
+
+/* zonas rancher */
+
+.seccion {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.seccion2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.seccionZonaRancher .container {
+  display: flex;
+  justify-content: center;
+}
+
+/* .submenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.seccionSubMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.submenu {
+  display: flex;
+  justify-content: center;
+}
+
+.containerSeccionPrincipal:nth-child(0) {
+  display: block;
+}
+
+/* .submenu:nth-child(1) {
+  justify-content: space-between;
+} */

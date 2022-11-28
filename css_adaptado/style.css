@@ -1,0 +1,312 @@
+body {
+  background-color: #f2f5f7;
+  font-family: "Open Sans", Arial, -serif;
+  font-family: var(--font-family-text, "Charlie Text", sans-serif);
+  font-size: 20px;
+}
+
+.container {
+  width: 94%;
+  margin: 0 auto;
+}
+
+.container2 {
+  width: 73%;
+  margin: 0 auto;
+}
+
+.headerPrincipal {
+  background: #425f57;
+  padding: 30px 0;
+}
+
+.headerPrincipal-titulo {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.headerPrincipal-titulo a {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.headerPrincipal-nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 8px;
+  margin-bottom: 10px;
+  transition: 5s;
+  display: block;
+  border-bottom: 2px solid #9799a6;
+  margin: 0 0 0 10px;
+  font-size: 19px;
+  text-align: center;
+}
+
+.contenidoPrincipal {
+  margin-bottom: 20px;
+}
+
+.bannerPrincipal {
+  padding: 40px;
+  background: linear-gradient(45deg, #425f57, #a8e890);
+}
+
+.bannerPrincipal-titulo {
+  color: #ededed;
+  text-align: center;
+  font-size: 41px;
+  font-weight: bold;
+}
+
+.titulo {
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-size: 3rem;
+  line-height: 1.25;
+}
+
+.seccionNosotros {
+  background: linear-gradient(45deg, #fff7e9, #ededed);
+}
+
+.subtitulo {
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #6fd66c;
+}
+
+.sitioWeb-titulo {
+  font-family: var(--font-family-display, "Charlie Display", sans-serif);
+  font-weight: 540;
+  padding: 30px 0 30px 0;
+  font-size: 36px;
+  line-height: 1.33333;
+  text-align: center;
+}
+
+.sitioWeb-subtitulo {
+  font-family: var(--font-family-display, "Charlie Display", sans-serif);
+  font-weight: 540;
+  padding: 30px 0 30px 0;
+  font-size: 30px;
+  line-height: 1.33333;
+}
+
+.sitioWeb-caja {
+  width: 30%;
+  height: auto;
+  padding: 1rem;
+}
+
+.sitioWeb-parrafo {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: justify;
+  width: auto;
+}
+
+.sitioWeb-imagen {
+  width: 330px;
+  height: 200px;
+}
+
+.subtitulo-padron {
+  font-family: var(--font-family-display, "Charlie Display", sans-serif);
+  font-weight: 540;
+  padding: 30px 0 30px 0;
+  font-size: 36px;
+  line-height: 1.33333;
+  text-align: center;
+}
+
+.parrafo-padron {
+  font-family: var(--font-family-display, "Charlie Display", sans-serif);
+  font-size: 22px;
+  margin: 20px;
+  text-align: justify;
+}
+
+/* main */
+
+.seccionTitulos {
+  background: linear-gradient(rgb(234, 230, 255), rgb(255, 255, 255)) no-repeat;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.seccionVidaSilvestre {
+  background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)) no-repeat;
+}
+
+.descripcion {
+  width: 50%;
+}
+
+.imagen-descripcion {
+  width: 40%;
+}
+
+.imagen-descripcion-img {
+  width: 100%;
+  padding: 30px 0 30px 0;
+}
+
+.seccionTitulos-parrafo {
+}
+
+.informacion-nosotros {
+  margin-top: 57px;
+  width: 50%;
+}
+
+.informacion-nosotros h2 {
+  margin-bottom: 30px;
+}
+
+.informacion-nosotros p {
+  font-size: 23px;
+  margin: 20px 20px;
+  text-align: justify;
+  margin-bottom: 100px;
+}
+
+.imagenesPrincipal {
+  width: 45%;
+  position: relative;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.imagenesPrincipal-img {
+  width: 100%;
+}
+
+.imagenesPrincipal-img:nth-child(1) {
+  margin-bottom: 24px;
+}
+
+.piePrincipal {
+  padding: 80px;
+  background: linear-gradient(45deg, #cfff8d, #749f82);
+  text-align: center;
+}
+
+/* zonas rancher */
+
+.bannerPrincipalRancher {
+  width: 100%;
+  height: 572px;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.bannerPrincipalRancher-titulo {
+  color: white;
+  font-size: 70px;
+  position: absolute;
+  z-index: 1;
+  font-family: "fjalla one", "sans-serif";
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.bannerPrincipalRancher::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: darkslategrey;
+  position: absolute;
+  opacity: 0.8;
+}
+
+.seccionSubMenu {
+  background: #c8dbbe;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.submenu {
+  margin: 10px;
+}
+
+.submenu-link {
+  padding: 7px 15px;
+  text-align: center;
+  color: #000;
+  margin-left: 20px;
+  border: black solid;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  font-size: 22px;
+}
+
+.submenu-link a {
+  text-decoration: none;
+  color: #000;
+}
+
+.seccionZonaRancher {
+  margin: 18px 0px;
+}
+
+.seccion {
+  padding: 30px;
+  background: #497174;
+}
+
+.seccion2 {
+  background: #497174;
+  padding: 30px;
+}
+
+.seccion-img img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+}
+
+.seccion-img {
+  margin: 20px;
+}
+
+.seccion-parrafo {
+  background: #eb6440;
+  color: #fff;
+  width: 30%;
+}
+
+.seccion-parrafo2 {
+  background: #eb6440;
+  color: white;
+  width: 30%;
+}
+
+.seccion-mapa iframe {
+  width: 500px;
+  height: 200px;
+}
+
+/* responsivo */
+@media (min-width: 769px) {
+  .container {
+    width: 85%;
+  }
+
+  .headerPrincipal-nav-link {
+    border-radius: 7px;
+    border: 1px solid #9799a6;
+  }
+
+  .headerPrincipal-nav {
+    width: auto;
+  }
+}
