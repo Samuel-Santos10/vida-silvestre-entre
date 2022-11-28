@@ -259,11 +259,11 @@ body {
 
 .seccion {
   padding: 30px;
-  background: #497174;
+  background: #432c7a;
 }
 
 .seccion2 {
-  background: #497174;
+  background: #432c7a;
   padding: 30px;
 }
 
@@ -279,14 +279,14 @@ body {
 }
 
 .seccion-parrafo {
-  background: #eb6440;
-  color: #fff;
+  background: #a3c7d6;
+  color: #000;
   width: 30%;
 }
 
 .seccion-parrafo2 {
-  background: #eb6440;
-  color: white;
+  background: #a3c7d6;
+  color: #000;
   width: 30%;
 }
 
