@@ -23,6 +23,8 @@ body {
 .headerPrincipal-titulo {
   font-weight: bold;
   font-size: 2em;
+  text-align: center;
+  margin: auto;
 }
 
 .headerPrincipal-titulo a {
